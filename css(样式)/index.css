@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?hf6w2y');
+    src: url('../fonts/icomoon.eot?hf6w2y#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?hf6w2y') format('truetype'),
+        url('../fonts/icomoon.woff?hf6w2y') format('woff'),
+        url('../fonts/icomoon.svg?hf6w2y#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.main {
+    margin-top: 10px;
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+
+}
+
+.focus {
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 455px;
+    /* background-color: purple; */
+}
+
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+    /* background-color: skyblue; */
+}
+
+.focus img {
+    width: 100%;
+    height: 100%;
+}
+
+.news {
+    height: 165px;
+}
+
+.circle {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    height: 20px;
+    width: 130px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    /* background-color: red; */
+}
+
+.circle li {
+    float: left;
+    /* text-align: center; */
+    height: 10px;
+    width: 10px;
+    /* line-height: 10px; */
+    background-color: #fff;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.circle .current {
+    background-color: red;
+}
+
+.bargin {
+    margin-top: 5px;
+}
+
+.bargin img {
+    height: 100%;
+    width: 100%;
+}
+
+.news {
+    border: 1px solid #e4e4e4;
+}
+
+.news_hd {
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.news_hd h5 {
+    float: left;
+    line-height: 33px;
+
+    margin-left: 10px;
+}
+
+.news_hd p {
+    float: right;
+    line-height: 33px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.news_hd p::after {
+    font-family: 'icomoon';
+    content: '\e938';
+    margin-right: 5px;
+}
+
+.new_bd ul {
+    margin: 5px 15px 0;
+}
+
+.new_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    /* 因此盒子之外的 */
+    overflow: hidden;
+    /* 强制一行显示 */
+    white-space: nowrap;
+    /* 用省略号代替 */
+    text-overflow: ellipsis;
+
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background-color: pink;
+    /* background: url() no-repeat ; */
+}
+
+.recom {
+    height: 163px;
+    background-color: #ebebeb;
+    margin-top: 12px;
+}
+
+.recom_hd {
+    float: left;
+    height: 163px;
+    width: 205px;
+    background-color: #5c5251;
+    text-align: center;
+}
+
+.recom_bd {
+    float: left;
+}
+
+.recom_hd img {
+    width: 129px;
+    height: 127px;
+    margin-top: 20px;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+
+}
+
+.recom_bd ul li:nth-child(-n+3)::after {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    content: '';
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+
+}
+
+.recom_bd ul li img {
+    height: 163px;
+    width: 245px;
+}
+
+
+/* 家用电器模块 */
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    color: #c81623;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30px;
+
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list ul li a {
+    padding: 0 15px;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_bd {
+    height: 361px;
+    background-color: pink;
+}
+
+.tab_list_item ul>li {
+    float: left;
+}
+
+.col_210 ul {
+    margin-top: 20px;
+    padding-left: 12px;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    line-height: 33px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-right: 10px;
+
+}
+
+.col_210 a img {
+    width: 210px;
+    height: 262px;
+}
+
+.col_210 {
+    width: 210px;
+    height: 361px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_329 a img {
+    width: 329px;
+    height: 361px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid red;
+}
+
+.col_221 a img {
+    width: 221px;
+    height: 180px;
+}
+
+.col_221 .huatv img {
+    width: 221px;
+    height: 361px;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.col_219 a img {
+    width: 221px;
+    height: 180px;
+}
